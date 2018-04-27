@@ -1,0 +1,5 @@
+solr:
+    type: solr:4.10
+    disk: 4196
+    configuration:
+        core_config: !archive "solr/conf"
